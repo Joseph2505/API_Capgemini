@@ -11,7 +11,7 @@ root_logger = logging.getLogger()
 root_logger.addHandler(file_handler)
 
 try:
-    conn = MongoClient("mongodb://localhost:27017/capgmini_db")
+    conn = MongoClient("mongodb://localhost:27017/capgemini_db")
     # Check if the connection is successful
     conn.server_info()
 
